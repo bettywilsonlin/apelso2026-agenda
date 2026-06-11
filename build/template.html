@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>APELSO 2026 我的議程</title>
+<style>
+  :root{
+    --navy:#102542; --navy2:#1c3a5e; --orange:#f5871f; --orange-soft:#fff2e3;
+    --bg:#f4f6f9; --card:#fff; --ink:#1d2733; --muted:#6b7a8d; --line:#e3e8ef;
+    --gold:#e0a52b; --gold-bg:#fff8e8;
+    --c-doctors:#2f80ed; --c-nurse:#eb5ca0; --c-perfusionist:#27ae8f; --c-cardiac:#e0533d;
+    --c-respiratory:#8e6fd8; --c-ecpr:#d6432e; --c-pediatric:#ef9a1e; --c-handson:#16a0a0;
+    --c-seminar:#8a94a6; --c-oral:#5b7cc4; --c-other:#7c8aa0;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,"PingFang TC","Noto Sans TC",system-ui,sans-serif;
+       background:var(--bg);color:var(--ink);font-size:15px;line-height:1.5}
+  a{color:inherit}
+  header{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;padding:16px 18px 0}
+  .htop{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .htop h1{font-size:19px;margin:0;font-weight:700;letter-spacing:.3px}
+  .htop .accent{color:var(--orange)}
+  .htop .venue{font-size:12px;color:#b9c6d8;margin-left:auto}
+  .tabs{display:flex;gap:4px;margin-top:12px;overflow-x:auto}
+  .tab{padding:9px 14px;border:none;background:transparent;color:#c4d0e0;font-size:14px;
+       font-weight:600;cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap}
+  .tab.active{color:#fff;border-bottom-color:var(--orange)}
+  .tab .cnt{font-size:11px;color:#8fa3bd;font-weight:500}
+  .toolbar{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line);
+           padding:9px 14px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .toolbar input[type=search]{flex:1;min-width:150px;padding:8px 12px;border:1px solid var(--line);
+       border-radius:20px;font-size:14px;outline:none}
+  .toolbar input[type=search]:focus{border-color:var(--orange)}
+  .toolbar select{padding:8px 10px;border:1px solid var(--line);border-radius:8px;font-size:13px;background:#fff}
+  .star-toggle{display:flex;align-items:center;gap:5px;font-size:13px;color:var(--muted);cursor:pointer;
+       padding:7px 11px;border:1px solid var(--line);border-radius:20px;user-select:none}
+  .star-toggle.on{background:var(--gold-bg);border-color:var(--gold);color:#9a6a00}
+  main{max-width:1100px;margin:0 auto;padding:14px}
+  .slot{margin-bottom:18px}
+  .slot-h{display:flex;align-items:center;gap:8px;margin:0 2px 8px;position:sticky;top:48px;z-index:10}
+  .slot-h .t{font-weight:700;font-size:15px;color:var(--navy);background:var(--bg);padding:2px 0}
+  .slot-h .ln{flex:1;height:1px;background:var(--line)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
+  .card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--c-other);
+        border-radius:10px;padding:11px 12px;cursor:pointer;position:relative;transition:box-shadow .15s}
+  .card:hover{box-shadow:0 3px 12px rgba(16,37,66,.08)}
+  .card.mine{border:2px solid var(--gold);border-left:5px solid var(--gold);background:var(--gold-bg)}
+  .card .row1{display:flex;align-items:center;gap:7px;margin-bottom:4px;flex-wrap:wrap;padding-right:26px}
+  .code{font-size:11px;font-weight:700;color:#fff;background:var(--c-other);padding:1px 7px;border-radius:5px}
+  .room{font-size:11px;color:var(--muted);font-weight:600}
+  .room .floor{display:inline-block;padding:0 5px;border-radius:4px;font-size:10px;margin-right:3px;color:#fff}
+  .floor.f5{background:#3a6ea5}.floor.f6{background:#6b8e23}
+  .time{font-size:11px;color:var(--muted);margin-left:auto;font-weight:600}
+  .ttl{font-size:14px;font-weight:600;line-height:1.35;padding-right:22px}
+  .type{font-size:11px;color:var(--muted);margin-top:2px}
+  .star{position:absolute;top:9px;right:9px;font-size:18px;color:#cdd6e2;background:none;border:none;
+        cursor:pointer;line-height:1;padding:2px}
+  .star.on{color:var(--gold)}
+  .mine-badge{display:inline-block;font-size:10px;font-weight:700;color:#fff;background:var(--gold);
+        padding:1px 6px;border-radius:5px}
+  .talks{margin-top:9px;border-top:1px dashed var(--line);padding-top:8px;display:none}
+  .card.open .talks{display:block}
+  .talk{padding:5px 0;border-bottom:1px solid #f0f3f7;font-size:13px}
+  .talk:last-child{border-bottom:none}
+  .talk .tc{font-size:10px;color:#fff;background:var(--muted);padding:0 5px;border-radius:4px;margin-right:5px}
+  .talk .tt{font-weight:600}
+  .talk .sp{color:var(--navy2);font-size:12px}
+  .talk .af{color:var(--muted);font-size:11px}
+  .nodetail{font-size:12px;color:var(--muted);font-style:italic;margin-top:8px;
+        border-top:1px dashed var(--line);padding-top:8px;display:none}
+  .card.open .nodetail{display:block}
+  .mine-note{background:#fff;border:1px dashed var(--gold);border-radius:7px;padding:7px 9px;
+        font-size:12px;color:#8a5a00;margin-top:8px}
+  .expand-hint{font-size:10px;color:#aab6c6;margin-top:6px}
+  .empty{text-align:center;color:var(--muted);padding:40px 10px}
+  .conflict{font-size:10px;font-weight:700;color:#fff;background:#e0533d;padding:1px 6px;border-radius:5px}
+  .legend{display:flex;flex-wrap:wrap;gap:8px 14px;padding:4px 16px 14px;font-size:11px;color:var(--muted)}
+  .legend span{display:inline-flex;align-items:center;gap:4px}
+  .legend i{width:10px;height:10px;border-radius:3px;display:inline-block}
+  footer{text-align:center;color:var(--muted);font-size:11px;padding:18px}
+  .now-pill{font-size:10px;font-weight:700;color:#fff;background:#27ae8f;padding:1px 6px;border-radius:5px;animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+</style>
+</head>
+<body>
+<header>
+  <div class="htop">
+    <h1><span class="accent">APELSO</span> 2026 我的議程</h1>
+    <span class="venue">8th Annual APELSO Conference ・ Hamamatsucho Convention Hall, Tokyo</span>
+  </div>
+  <div class="tabs" id="tabs"></div>
+</header>
+<div class="toolbar">
+  <input type="search" id="q" placeholder="搜尋講者、題目、關鍵字…">
+  <select id="roomf"><option value="">全部會場</option></select>
+  <div class="star-toggle" id="starOnly"><span>⭐</span>只看已加星</div>
+</div>
+<div class="legend" id="legend"></div>
+<main id="main"></main>
+<footer>星標記憶在本機瀏覽器（離線可用）。資料來源：APELSO 2026 官網 program.html ＋ 大會時程表。<br>
+FC（Doctors 等）與 Hands-on 講題明細未公開於網頁，顯示為場次層級。</footer>
+
+<script>
+const DATA = /*__DATA__*/{};
+const CATNAME = {doctors:'醫師',nurse:'護理',perfusionist:'灌注/CE',cardiac:'心臟',
+  respiratory:'呼吸',ecpr:'ECPR',pediatric:'兒科',handson:'Hands-on',seminar:'Seminar',
+  oral:'Oral',other:'其他'};
+const S = DATA.sessions;
+const DATES = DATA.meta.dates;
+let state = {day:'1', q:'', room:'', starOnly:false};
+const STORE='apelso2026_stars';
+let stars = new Set(JSON.parse(localStorage.getItem(STORE)||'[]'));
+function saveStars(){localStorage.setItem(STORE,JSON.stringify([...stars]));}
+if(!localStorage.getItem(STORE)){stars.add('FC-D08');saveStars();}
+
+const MINE_NOTE = '你的報告：第 5 順位（FC-D08-5）・口頭 7 分鐘 + QA 2 分鐘・投影片放映';
+
+function tmin(t){if(!t)return 9999;const p=t.split(':');return +p[0]*60+ +p[1];}
+function floorTag(rd){const f=rd.startsWith('6F')?'f6':'f5';const n=rd.slice(0,2);
+  return '<span class="floor '+f+'">'+n+'</span>';}
+
+function nowInfo(){
+  const now=new Date();const iso=now.toISOString().slice(0,10);
+  for(const d in DATES){if(DATES[d].iso===iso){
+    const m=now.getHours()*60+now.getMinutes();return {day:d,min:m};}}
+  return null;
+}
+const NOW=nowInfo();
+
+function buildTabs(){
+  const t=document.getElementById('tabs');
+  let html='';
+  for(const d of ['1','2','3']){
+    const cnt=S.filter(s=>s.day===d).length;
+    html+='<button class="tab" data-day="'+d+'">'+DATES[d].date+'<div class="cnt">'+cnt+' 場</div></button>';
+  }
+  const mineCnt=S.filter(s=>stars.has(s.code)).length;
+  html+='<button class="tab" data-day="mine">⭐ 我的行程<div class="cnt" id="mineCnt">'+mineCnt+' 場</div></button>';
+  t.innerHTML=html;
+  t.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{state.day=b.dataset.day;render();});
+}
+function buildRoomFilter(){
+  const rooms=[...new Set(S.map(s=>s.room))].sort((a,b)=>a-b);
+  const sel=document.getElementById('roomf');
+  rooms.forEach(r=>{const o=document.createElement('option');o.value=r;
+    const rd=S.find(s=>s.room===r).roomDesc;o.textContent='Room '+r+'（'+rd+'）';sel.appendChild(o);});
+}
+function buildLegend(){
+  const cats=['doctors','nurse','perfusionist','cardiac','respiratory','ecpr','pediatric','handson'];
+  document.getElementById('legend').innerHTML=cats.map(c=>
+    '<span><i style="background:var(--c-'+c+')"></i>'+CATNAME[c]+'</span>').join('');
+}
+
+function matchQ(s){
+  if(!state.q)return true;
+  const q=state.q.toLowerCase();
+  if((s.code+' '+s.title+' '+s.type).toLowerCase().includes(q))return true;
+  return s.talks.some(t=>(t.title+' '+t.speaker+' '+t.affiliation).toLowerCase().includes(q));
+}
+function visible(s){
+  if(state.day==='mine'){if(!stars.has(s.code))return false;}
+  else if(s.day!==state.day)return false;
+  if(state.room && String(s.room)!==state.room)return false;
+  if(state.starOnly && !stars.has(s.code))return false;
+  if(!matchQ(s))return false;
+  return true;
+}
+
+function conflictSet(list){
+  const con=new Set();
+  for(let i=0;i<list.length;i++)for(let j=i+1;j<list.length;j++){
+    const a=list[i],b=list[j];if(a.day!==b.day)continue;
+    const as=tmin(a.start),ae=tmin(a.end)||as+90,bs=tmin(b.start),be=tmin(b.end)||bs+90;
+    if(as<be && bs<ae){con.add(a.code);con.add(b.code);}
+  }
+  return con;
+}
+
+function esc(x){return (x||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+function cardHTML(s, conflicts){
+  const cat=s.cat, col='var(--c-'+cat+')';
+  const on=stars.has(s.code)?'on':'';
+  const open = (state.q && (s.talks.length||s.code.indexOf('FC')===0))?'open':'';
+  const isNow = NOW && NOW.day===s.day && tmin(s.start)<=NOW.min && NOW.min < (tmin(s.end)||tmin(s.start)+90);
+  let talksHTML='';
+  if(s.talks.length){
+    talksHTML='<div class="talks">'+s.talks.map(t=>
+      '<div class="talk"><span class="tc">'+esc(t.code)+'</span><span class="tt">'+esc(t.title)+'</span>'+
+      (t.speaker?'<div class="sp">'+esc(t.speaker)+(t.affiliation?' <span class="af">— '+esc(t.affiliation)+'</span>':'')+'</div>':'')+
+      '</div>').join('')+
+      (s.partial?'<div class="talk" style="color:var(--muted);font-style:italic;font-size:12px;border:none">已補 '+s.talks.length+' 筆（來自大會 App）；本場其餘講題可再貼給我補上。</div>':'')+
+      '</div>';
+  } else {
+    talksHTML='<div class="nodetail">講題明細未公開於網頁（見大會 App「Conference Navi」或現場）。'+
+      (s.code.indexOf('FC-D')===0?'可把這場講者名單貼給我，我幫你補進來。':'')+'</div>';
+  }
+  const mineNote = s.mine?'<div class="mine-note">📍 '+esc(MINE_NOTE)+'</div>':'';
+  const hint = (s.talks.length)?'<div class="expand-hint">▸ 點卡片展開 '+s.talks.length+' 個講題</div>':'';
+  return '<div class="card '+(s.mine?'mine':'')+' '+open+'" data-code="'+esc(s.code)+'" style="border-left-color:'+col+'">'+
+    '<button class="star '+on+'" data-star="'+esc(s.code)+'">'+(on?'★':'☆')+'</button>'+
+    '<div class="row1">'+
+      '<span class="code" style="background:'+col+'">'+esc(s.code)+'</span>'+
+      (s.mine?'<span class="mine-badge">我的報告</span>':'')+
+      (isNow?'<span class="now-pill">進行中</span>':'')+
+      (conflicts&&conflicts.has(s.code)?'<span class="conflict">⚠ 時間衝突</span>':'')+
+      '<span class="time">'+esc(s.start)+(s.end?'–'+esc(s.end):'')+'</span>'+
+    '</div>'+
+    '<div class="ttl">'+esc(s.title)+'</div>'+
+    '<div class="type">'+esc(s.type)+'・<span class="room">'+floorTag(s.roomDesc)+'Room '+s.room+'（'+esc(s.roomDesc)+'）</span></div>'+
+    mineNote+hint+talksHTML+
+  '</div>';
+}
+
+function render(){
+  document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.day===state.day));
+  const list=S.filter(visible);
+  const main=document.getElementById('main');
+  if(!list.length){main.innerHTML='<div class="empty">沒有符合的場次。</div>';updateMineCnt();return;}
+  const conflicts = state.day==='mine'?conflictSet(list):null;
+  const slots={};
+  list.forEach(s=>{const key=(state.day==='mine'?DATES[s.day].date+' ':'')+s.start;
+    (slots[key]=slots[key]||[]).push(s);});
+  const keys=Object.keys(slots).sort((a,b)=>{
+    if(state.day==='mine'){return a.localeCompare(b,'zh');}
+    return tmin(a)-tmin(b);});
+  let html='';
+  keys.forEach(k=>{
+    html+='<div class="slot"><div class="slot-h"><span class="t">'+k+'</span><span class="ln"></span></div>'+
+      '<div class="grid">'+slots[k].map(s=>cardHTML(s,conflicts)).join('')+'</div></div>';
+  });
+  main.innerHTML=html;
+  main.querySelectorAll('.card').forEach(c=>c.onclick=e=>{
+    if(e.target.closest('.star'))return;c.classList.toggle('open');});
+  main.querySelectorAll('.star').forEach(b=>b.onclick=e=>{
+    e.stopPropagation();const code=b.dataset.star;
+    if(stars.has(code))stars.delete(code);else stars.add(code);
+    saveStars();render();});
+  updateMineCnt();
+}
+function updateMineCnt(){const el=document.getElementById('mineCnt');
+  if(el)el.textContent=S.filter(s=>stars.has(s.code)).length+' 場';}
+
+document.getElementById('q').oninput=e=>{state.q=e.target.value.trim();render();};
+document.getElementById('roomf').onchange=e=>{state.room=e.target.value;render();};
+document.getElementById('starOnly').onclick=function(){
+  state.starOnly=!state.starOnly;this.classList.toggle('on',state.starOnly);render();};
+
+buildTabs();buildRoomFilter();buildLegend();
+if(NOW)state.day=NOW.day;
+render();
+</script>
+</body>
+</html>

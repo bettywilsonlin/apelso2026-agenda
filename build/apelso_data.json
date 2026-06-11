@@ -1,0 +1,2647 @@
+{
+ "meta": {
+  "title": "APELSO 2026 我的議程",
+  "dates": {
+   "1": {
+    "date": "6/11 (四)",
+    "iso": "2026-06-11"
+   },
+   "2": {
+    "date": "6/12 (五)",
+    "iso": "2026-06-12"
+   },
+   "3": {
+    "date": "6/13 (六)",
+    "iso": "2026-06-13"
+   }
+  },
+  "venue": "Hamamatsucho Convention Hall, Tokyo"
+ },
+ "sessions": [
+  {
+   "day": "1",
+   "code": "OP",
+   "type": "Opening",
+   "title": "Opeing Ceremony",
+   "room": 1,
+   "roomDesc": "5F Main Hall A",
+   "start": "8:15",
+   "end": "9:45",
+   "talks": [
+    {
+     "code": "OP-1",
+     "title": "Welcome to APELSO 2026 in Tokyo",
+     "speaker": "Shigo Ichiba",
+     "affiliation": "APELSO2026 President"
+    },
+    {
+     "code": "OP-2",
+     "title": "Current and future of APELSO",
+     "speaker": "Pranya Sakiyalak",
+     "affiliation": "APELSO President"
+    },
+    {
+     "code": "OP-3",
+     "title": "The birth and maturation of APELSO",
+     "speaker": "Graeme MacLaren",
+     "affiliation": "First APELSO President/Past-President, ELSO"
+    },
+    {
+     "code": "OP-4",
+     "title": "Research and the next frontier of ECLS",
+     "speaker": "John Fraser",
+     "affiliation": "Ex-Past-President, APELSO"
+    },
+    {
+     "code": "OP-5",
+     "title": "Shaping the global future of ELSO",
+     "speaker": "Daniel Brodie",
+     "affiliation": "ELSO President"
+    },
+    {
+     "code": "OP-6",
+     "title": "Global, innovation and resilience",
+     "speaker": "Christine Stead",
+     "affiliation": "ELSO Chief Executive Officer"
+    },
+    {
+     "code": "OP-7",
+     "title": "Current and future of Latin America ELSO",
+     "speaker": "Fernando Antoniali",
+     "affiliation": "Latin America ELSO President"
+    },
+    {
+     "code": "OP-8",
+     "title": "Current and future of SWAAC ELSO",
+     "speaker": "Huda Alfoudri",
+     "affiliation": "SWAAC ELSO President"
+    },
+    {
+     "code": "OP-9",
+     "title": "Current and future of EuroELSO",
+     "speaker": "Matthieu Schmid",
+     "affiliation": "EuroELSO President"
+    },
+    {
+     "code": "OP-10",
+     "title": "Current and future of EuroELSO",
+     "speaker": "Justyna Swol",
+     "affiliation": "EuroELSO Scientific Committee Member"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "OP-RELAY",
+   "type": "Opening Ceremony",
+   "title": "Opening Ceremony (relayed 轉播)",
+   "room": 2,
+   "roomDesc": "5F Main Hall B",
+   "start": "8:15",
+   "end": "9:45",
+   "talks": [],
+   "cat": "other",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY01",
+   "type": "Symposium",
+   "title": "Respiratory ECMO 1 (Joint with the Japanese Society for Cardio-Pulmonary Support Therapeutics (JCAP))",
+   "room": 1,
+   "roomDesc": "5F Main Hall A",
+   "start": "10:00",
+   "end": "11:30",
+   "talks": [
+    {
+     "code": "SY01-1",
+     "title": "Femoro-femoral vv ecmo - from cannulation to patient management",
+     "speaker": "Nicholas Barrett",
+     "affiliation": "Guy's and St Thomas' NHS Foundation Trust, London"
+    },
+    {
+     "code": "SY01-2",
+     "title": "From protective to ultra-protective: Ventilation in the ECMO era",
+     "speaker": "Matthieu Schmidt",
+     "affiliation": "Sorbonne University, Pitie Salpetriere Hospital, France"
+    },
+    {
+     "code": "SY01-3",
+     "title": "How to assess lung recoverability during VV ECMO: Current evidence and clinical practice",
+     "speaker": "Yoshihiro Hagiwara",
+     "affiliation": "Department of Emergency Medicine and Critical Care Medicine, Tochigi Prefectural Emergency and Critical Care Center, Imperial Foundation Saiseikai Utsunomiya Hospital, Japan"
+    },
+    {
+     "code": "SY01-4",
+     "title": "ECMO during pregnancy",
+     "speaker": "Cara Agerstrand",
+     "affiliation": "Columbia University Medical Center/NewYork-Presbyterian Hospital, USA"
+    },
+    {
+     "code": "SY01-5",
+     "title": "A novel F(SVC) configuration in V-V ECMO: From hypoxemia to hyperoxemia",
+     "speaker": "Tomoyuki Nakamura",
+     "affiliation": "Anesthesiology and Critical Care Medicine, Fujita Health University, Japan"
+    }
+   ],
+   "cat": "respiratory",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY03",
+   "type": "Symposium",
+   "title": "Pediatrics ECMO 1",
+   "room": 2,
+   "roomDesc": "5F Main Hall B",
+   "start": "10:00",
+   "end": "11:30",
+   "talks": [
+    {
+     "code": "SY03-1",
+     "title": "Key parameters for recovery and successful outcome Pediatric Respiratory ECMO",
+     "speaker": "Hoskote Aparna",
+     "affiliation": "Great Ormond Street Hospital for Children NHS Foundation Trust, Great Ormond Street, UK"
+    },
+    {
+     "code": "SY03-2",
+     "title": "Extracorporeal cardiopulmonary resuscitation in congenital heart disease",
+     "speaker": "Kazuhiro Shoya",
+     "affiliation": "Department of Critical Care Medicine, Sakakibara Heart Institute, Japan"
+    },
+    {
+     "code": "SY03-3",
+     "title": "Hot topics in Neonatal ECMO",
+     "speaker": "Natalie Rintoul",
+     "affiliation": "Children's Hospital of Philadelphia, USA"
+    },
+    {
+     "code": "SY03-4",
+     "title": "Pediatric post-cardiotomy ECMO: Translating adults concepts into pediatric practice",
+     "speaker": "Fernando Antoniali",
+     "affiliation": "Clinica Cardio Cirúrgica Campinas and Pontifical Catholic University of Campinas, Brazil"
+    },
+    {
+     "code": "SY03-5",
+     "title": "Optimizing outcomes in Neonatal Cardiac ECMO",
+     "speaker": "Anuradha Menon",
+     "affiliation": "KK Women’s and Children’s Hospital, Singapore"
+    },
+    {
+     "code": "SY03-6",
+     "title": "Toward comprehensive pediatric ECMO care: Contributions from a pediatric cardiac surgeon",
+     "speaker": "Masatoshi Shimada",
+     "affiliation": "Department of Pediatric Cardiovascular Surgery, St. Marianna University School of Medicine, Japan"
+    }
+   ],
+   "cat": "pediatric",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY06",
+   "type": "Symposium",
+   "title": "Simulation",
+   "room": 3,
+   "roomDesc": "5F Large Hall A",
+   "start": "10:00",
+   "end": "11:30",
+   "talks": [
+    {
+     "code": "SY06-1",
+     "title": "Educational foundations of instructional design applied to simulation-based education",
+     "speaker": "Yasuhiro Mandai",
+     "affiliation": "The Jikei University School of Medicine, Japan"
+    },
+    {
+     "code": "SY06-2",
+     "title": "Training for the unexpected: High-fidelity simulation in ECMO",
+     "speaker": "Catalina Alvarado Neves",
+     "affiliation": "Clinica RedSalud Santiago, Chile"
+    },
+    {
+     "code": "SY06-3",
+     "title": "The role of physicians in IPW through training",
+     "speaker": "Gen Ouchi",
+     "affiliation": "University of the Ryukyus Hospital, Japan"
+    },
+    {
+     "code": "SY06-4",
+     "title": "Fundamental design of interprofessional simulation for sustainable patient safety",
+     "speaker": "Machiko S. Yagi",
+     "affiliation": "Jichi Medical University, Japan"
+    },
+    {
+     "code": "SY06-5",
+     "title": "T.B.A.",
+     "speaker": "Yasuharu Okuda",
+     "affiliation": "USF Health CAMLS"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY10",
+   "type": "Symposium",
+   "title": "Anticoagulation",
+   "room": 4,
+   "roomDesc": "5F Large Hall B",
+   "start": "10:00",
+   "end": "11:30",
+   "talks": [
+    {
+     "code": "SY10-1",
+     "title": "Heparin alternatives on VA ECMO",
+     "speaker": "Poonam Malhotra Kapoor",
+     "affiliation": "Department of Cardiac Anaesthesia and Critical Care, AIIMS, India"
+    },
+    {
+     "code": "SY10-2",
+     "title": "Current perspectives in ECMO anticoagulation",
+     "speaker": "Wincy Ng",
+     "affiliation": "Adult Intensive Care Unit, Queen Mary Hospital, Hong Kong SAR"
+    },
+    {
+     "code": "SY10-3",
+     "title": "Anticoagulation use in Pediatric ECMO",
+     "speaker": "Eva Miranda Marwali",
+     "affiliation": "National Cardiovascular Center Harapan Kita, Indonesia"
+    },
+    {
+     "code": "SY10-4",
+     "title": "Anticoagulation during ECMO",
+     "speaker": "Justyna Swol",
+     "affiliation": "Department of Respiratory Medicine, Paracelsus Medical University Nuremberg, Germany"
+    },
+    {
+     "code": "SY10-5",
+     "title": "Association of thromboelastographicreaction time components with bleeding during extracorporeal membrane oxygenation",
+     "speaker": "Yoshihiko Takahashi",
+     "affiliation": "Department of Emergency and Critical Care Medicine, Tokyo Medical University Hachioji Medical Center, Japan"
+    },
+    {
+     "code": "SY10-6",
+     "title": "A pragmatic study of heparin vs bivalirudin",
+     "speaker": "Bishoy Zakhary",
+     "affiliation": "Division of Pulmonary and Critical Care Medicine, Oregon Health and Science University, USA"
+    },
+    {
+     "code": "SY10-7",
+     "title": "Beyond heparin in ECMO-induced coagulopathy: The therapeutic potential of factor XII inhibition",
+     "speaker": "Nao Umei",
+     "affiliation": "Department of Emergency and Disaster Medicine, Juntendo University Graduate School of Medicine, Japan"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "FC-D01",
+   "type": "Free Communications",
+   "title": "Doctors 1",
+   "room": 6,
+   "roomDesc": "6F Conference Room B",
+   "start": "10:00",
+   "end": "11:30",
+   "talks": [],
+   "cat": "doctors",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "FC-D03",
+   "type": "Free Communications",
+   "title": "Doctors 3",
+   "room": 8,
+   "roomDesc": "6F Meeting Room 1",
+   "start": "10:00",
+   "end": "11:30",
+   "talks": [],
+   "cat": "doctors",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "FC-D06",
+   "type": "Free Communications",
+   "title": "Doctors 6",
+   "room": 10,
+   "roomDesc": "6F Meeting Room 3",
+   "start": "10:00",
+   "end": "11:30",
+   "talks": [],
+   "cat": "doctors",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "L1",
+   "type": "Luncheon Seminar 1（Getinge 贊助）",
+   "title": "Right Patient. Right Center. Right Time – Optimizing Transport and Triage for Advanced ECLS cases",
+   "room": 1,
+   "roomDesc": "5F Main Hall A",
+   "start": "11:50",
+   "end": "",
+   "talks": [],
+   "cat": "seminar",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "L2",
+   "type": "Luncheon Seminar 2（Senko Medical Instrument 贊助）",
+   "title": "Beyond Access: Cannulation Strategy for Safer and More Effective ECMO from Prehospital to the ICU",
+   "room": 2,
+   "roomDesc": "5F Main Hall B",
+   "start": "11:50",
+   "end": "",
+   "talks": [],
+   "cat": "seminar",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "L3",
+   "type": "Luncheon Seminar 3（Paramount Bed 贊助）",
+   "title": "Prioritization of Mobilization while on ECMO",
+   "room": 3,
+   "roomDesc": "5F Large Hall A",
+   "start": "11:50",
+   "end": "",
+   "talks": [],
+   "cat": "seminar",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "L4",
+   "type": "Luncheon Seminar 4（NIPRO 贊助）",
+   "title": "Multicenter Collaboration in Mechanical Circulatory Support ～ How We Save the Cardiogenic Shock Patients ～",
+   "room": 4,
+   "roomDesc": "5F Large Hall B",
+   "start": "11:50",
+   "end": "",
+   "talks": [],
+   "cat": "seminar",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY02",
+   "type": "Symposium",
+   "title": "ECPR 1",
+   "room": 1,
+   "roomDesc": "5F Main Hall A",
+   "start": "13:00",
+   "end": "14:30",
+   "talks": [
+    {
+     "code": "SY02-1",
+     "title": "ECPR - current evidence",
+     "speaker": "Jan Belohlavek",
+     "affiliation": "General University Hospital in Prague, Czech Republic"
+    },
+    {
+     "code": "SY02-2",
+     "title": "T.B.A.",
+     "speaker": "Jae Seung Jung",
+     "affiliation": "Department of Thoracic and Cardiovascular Surgery, Korea University Anam Hospital, Korea University College of Medicine, Republic of Korea"
+    },
+    {
+     "code": "SY02-3",
+     "title": "ECPR strategy for out-of-hospital cardiac arrest: Who, where, and How?",
+     "speaker": "Akihiko Inoue",
+     "affiliation": "Emergency and Critical Care Center, Hyogo Emergency Medical Center, Japan"
+    },
+    {
+     "code": "SY02-4",
+     "title": "The minnesota mobile ECMO program",
+     "speaker": "Charles A. Bruen",
+     "affiliation": "University of Minnesota, USA"
+    },
+    {
+     "code": "SY02-5",
+     "title": "Prehospital ECPR in JAPAN: Extending the chain of survival beyond the hospital",
+     "speaker": "Kensuke Fujita",
+     "affiliation": "Department of Emergency Medicine and Critical Care Medicine, Tochigi Prefectural Emergency and Critical Care Center, Imperial Foundation Saiseikai Utsunomiya Hospital, Japan"
+    },
+    {
+     "code": "SY02-6",
+     "title": "Prehospital ECPR down under",
+     "speaker": "David Anderson",
+     "affiliation": "Ambulance Victoria, The Alfred Hospital, Monash University"
+    }
+   ],
+   "cat": "ecpr",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY04",
+   "type": "Symposium",
+   "title": "Pediatrics ECMO 4",
+   "room": 2,
+   "roomDesc": "5F Main Hall B",
+   "start": "13:00",
+   "end": "14:30",
+   "talks": [
+    {
+     "code": "SY04-1",
+     "title": "From surveillance to system design: Nationwide pSARI monitoring and facility selection for pediatric respiratory ECMO",
+     "speaker": "Hiroshi Kurosawa",
+     "affiliation": "Center for Pediatric Critical Care Medicine, Hyogo Prefectural Kobe Children’s Hospital"
+    },
+    {
+     "code": "SY04-2",
+     "title": "Immunne dysfunction in ECMO Patients",
+     "speaker": "Thomas Brogan",
+     "affiliation": "University of Washington School of Medicine/Seattle Children's Hospital, USA"
+    },
+    {
+     "code": "SY04-3",
+     "title": "Pulmonary vascular management in Pediatric ECMO: Nitric oxide, right ventricular failure, and weaning",
+     "speaker": "Muneyuki Takeuchi",
+     "affiliation": "National Cerebral and Cardiovascular Center, Japan"
+    },
+    {
+     "code": "SY04-4",
+     "title": "Keeping watch: Neurologic monitoring strategies in Pediatric ECMO",
+     "speaker": "Melania M. Bembea",
+     "affiliation": "Johns Hopkins University, USA"
+    },
+    {
+     "code": "SY04-5",
+     "title": "ECMO in practice: Decision-making from initiation to end-of-life",
+     "speaker": "Hye Won Kwon",
+     "affiliation": "Seoul National University Children's Hospitalm Republic of Korea"
+    }
+   ],
+   "cat": "pediatric",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY07",
+   "type": "Symposium",
+   "title": "Nurse 1 Education",
+   "room": 3,
+   "roomDesc": "5F Large Hall A",
+   "start": "13:00",
+   "end": "14:30",
+   "talks": [
+    {
+     "code": "SY07-1",
+     "title": "Towards high-reliability ECMO care: Regional priorities for advancing nursing education in the Asia-Pacific",
+     "speaker": "Chan Ricky Wai Kit",
+     "affiliation": "Department of Adult Intensive Care, Queen Mary Hospital, Hong Kong SAR"
+    },
+    {
+     "code": "SY07-2",
+     "title": "What is my role in Peri-ECMO care?",
+     "speaker": "Weiting Chen",
+     "affiliation": "UCLA Medical Center and Cedars Sinai Medical Center, USA"
+    },
+    {
+     "code": "SY07-3",
+     "title": "Precision anticoagulation in a Global ECMO Network",
+     "speaker": "Raj Ramanan",
+     "affiliation": "Department of Critical Care Medicine, University of Pittsburgh School of Medicine, USA"
+    },
+    {
+     "code": "SY07-4",
+     "title": "ECMO training in a Mixed Pediatric-Adult Cardiac ICU",
+     "speaker": "Mai Kawakami",
+     "affiliation": "Department of Nursing, Sakakibara Heart Institute, Japan"
+    },
+    {
+     "code": "SY07-5",
+     "title": "The role of the ECMO coordinator in nursing education: Experience from Samsung Medical Center",
+     "speaker": "Suhyun Cho",
+     "affiliation": "Samsung Medical Center, Republic of Korea"
+    },
+    {
+     "code": "SY07-6",
+     "title": "From bedside to brilliance: Enhancing clinical judgment in ECMO nursing through E-learning and simulation",
+     "speaker": "Michiko Nakano",
+     "affiliation": "Japan Institute for Health Security; Graduate School of Japanese Red Cross College of Nursing, Japan"
+    }
+   ],
+   "cat": "nurse",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY11",
+   "type": "Symposium",
+   "title": "VAD",
+   "room": 4,
+   "roomDesc": "5F Large Hall B",
+   "start": "13:00",
+   "end": "14:30",
+   "talks": [
+    {
+     "code": "SY11-1",
+     "title": "Heparin alternatives on VA ECMO",
+     "speaker": "Poonam Malhotra Kapoor",
+     "affiliation": "Department of Cardiac Anaesthesia and Critical Care, AIIMS, India"
+    },
+    {
+     "code": "SY11-2",
+     "title": "The current results of transition from temporary MCS/ECMO to VAD",
+     "speaker": "Roberto Lorusso",
+     "affiliation": "Cardio-Thoracic Surgery Department, Heart & Vascular Center, Maastricht University Medical Centre (MUMC+)/Cardiovascular Research Institute Maastricht (CARIM), The Netherlands"
+    },
+    {
+     "code": "SY11-3",
+     "title": "T.B.A.",
+     "speaker": "Yih-Sharng Chen",
+     "affiliation": "National Taiwan Univeristy Hospital, Taiwan, China"
+    },
+    {
+     "code": "SY11-4",
+     "title": "VA ECMO transition to LVAD",
+     "speaker": "Hitoshi Hirose",
+     "affiliation": "Cleveland Clinic, USA"
+    },
+    {
+     "code": "SY11-5",
+     "title": "Current status of VAD treatment in Japan; Impella LVAD bridge",
+     "speaker": "Yuki Ichihara",
+     "affiliation": "Tokyo Women's Medical University, Japan"
+    },
+    {
+     "code": "SY11-6",
+     "title": "Heart transplantation versus Durable LVAD in Korea",
+     "speaker": "Yang Hyun Cho",
+     "affiliation": "Samsung Medical Center, Republic of Korea"
+    },
+    {
+     "code": "SY11-7",
+     "title": "RVF after LVAD implantation, hidden harm after bridging with V-A ECMO",
+     "speaker": "Hideaki Nonaka",
+     "affiliation": "Critical Care Research Group"
+    }
+   ],
+   "cat": "cardiac",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "HS-A1(E)",
+   "type": "Hands-on",
+   "title": "Adult Session 1（English）",
+   "room": 6,
+   "roomDesc": "6F Conference Room B",
+   "start": "13:00",
+   "end": "14:30",
+   "talks": [],
+   "cat": "handson",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "FC-D02",
+   "type": "Free Communications",
+   "title": "Doctors 2",
+   "room": 7,
+   "roomDesc": "6F Conference Room C",
+   "start": "13:00",
+   "end": "14:30",
+   "talks": [],
+   "cat": "doctors",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY14",
+   "type": "Symposium",
+   "title": "Heterogeneous",
+   "room": 8,
+   "roomDesc": "6F Meeting Room 1",
+   "start": "13:00",
+   "end": "14:30",
+   "talks": [
+    {
+     "code": "SY14-1",
+     "title": "The efficacy of ECMO rewarming therapy for accidental hypothermia",
+     "speaker": "Shuhei Takauji",
+     "affiliation": "Department of Acute and Critical Care Medicine, Hokkaido University, Japan"
+    },
+    {
+     "code": "SY14-2",
+     "title": "Neurological injury after ECPR",
+     "speaker": "Sung-Min Cho",
+     "affiliation": "Johns Hopkins University, USA"
+    },
+    {
+     "code": "SY14-3",
+     "title": "Pediatric post-cardiotomy ECMO: Translating adults concepts into pediatric practice",
+     "speaker": "Rodrigo Diaz",
+     "affiliation": "Hospital Celso Pierro, Pontificia Universidade Catolica (PUC) de Campinas, Campinas, Brazil"
+    },
+    {
+     "code": "SY14-4",
+     "title": "Bridge to lung transplant using total artificial lung system following bilateral pneumonectomy for ARDS",
+     "speaker": "Chitaru Kurihara",
+     "affiliation": "Northwestern University, USA"
+    },
+    {
+     "code": "SY14-5",
+     "title": "Clinical application of ECMO in special scenarios",
+     "speaker": "Liangshan Wang",
+     "affiliation": "Beijng Anzhen Hospital, Capital Medical University, P. R. China"
+    },
+    {
+     "code": "SY14-6",
+     "title": "Extracorporeal life support management for poisoning",
+     "speaker": "Tatsuki Uemura",
+     "affiliation": "ECMO Center, Department of Emergency Medicine and Critical Care, National Center for Global Health and Medicine, Japan Institute for Health Security, Japan"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY15",
+   "type": "Symposium",
+   "title": "ECMO Center",
+   "room": 8,
+   "roomDesc": "6F Meeting Room 1",
+   "start": "13:00",
+   "end": "14:30",
+   "talks": [
+    {
+     "code": "SY15-1",
+     "title": "Centralize or not? The ECMO volume? Outcome dilemma",
+     "speaker": "Matthieu Schmidt",
+     "affiliation": "Sorbonne University, Pitie Salpetriere Hospital, France"
+    },
+    {
+     "code": "SY15-2",
+     "title": "Establishing ECMO centers based on regional needs",
+     "speaker": "Kota Hoshino",
+     "affiliation": "Emergency and Critical Care Center, Okinawa Prefectural Nanbu Medical Center, Japan"
+    },
+    {
+     "code": "SY15-3",
+     "title": "Recent update of ECMO in Indonesia",
+     "speaker": "Eva Miranda Marwali",
+     "affiliation": "National Cardiovascular Center Harapan Kita, Indonesia"
+    },
+    {
+     "code": "SY15-4",
+     "title": "Sustainable training for ECMO: Cannulation, management, and transport",
+     "speaker": "Noriyuki Hattori",
+     "affiliation": "Department of Emergency and Critical Care Medicine, Chiba University Graduate School of Medicine, Japan"
+    },
+    {
+     "code": "SY15-5",
+     "title": "ECMO Center in developing country: Expanding access while mMaintaining quality",
+     "speaker": "Son Ngoc Do",
+     "affiliation": "Bach Mai Hospital, Vietnam"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "FC-D04",
+   "type": "Free Communications",
+   "title": "Doctors 4",
+   "room": 9,
+   "roomDesc": "6F Meeting Room 2",
+   "start": "13:00",
+   "end": "14:30",
+   "talks": [],
+   "cat": "doctors",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "FC-D07",
+   "type": "Free Communications",
+   "title": "Doctors 7",
+   "room": 10,
+   "roomDesc": "6F Meeting Room 3",
+   "start": "13:00",
+   "end": "14:30",
+   "talks": [],
+   "cat": "doctors",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY05",
+   "type": "Symposium",
+   "title": "ECMO Registry",
+   "room": 2,
+   "roomDesc": "5F Main Hall B",
+   "start": "14:45",
+   "end": "16:15",
+   "talks": [
+    {
+     "code": "SY05-1",
+     "title": "ELSO Registry",
+     "speaker": "Peter T. Rycus",
+     "affiliation": "ELSO"
+    },
+    {
+     "code": "SY05-2",
+     "title": "Using the ELSO registry for research",
+     "speaker": "Joseph E. Tonna",
+     "affiliation": "University of Utah Health, USA"
+    },
+    {
+     "code": "SY05-3",
+     "title": "How can Asia-Pacific make its mark on registry data",
+     "speaker": "Pauline Yeung Ng",
+     "affiliation": "Critical Care Medicine Unit, The University of Hong Kong Queen Mary Hospital, Hong Kong SAR"
+    },
+    {
+     "code": "SY05-4",
+     "title": "Pediatric studies using observational analyses from ELSO registry",
+     "speaker": "Hoskote Aparna",
+     "affiliation": "Great Ormond Street Hospital for Children NHS Foundation Trust, Great Ormond Street, UK"
+    },
+    {
+     "code": "SY05-5",
+     "title": "ECMO registry",
+     "speaker": "Chenglong Li",
+     "affiliation": "Beijing Anzhen Hospital, Capital Medical University, China"
+    },
+    {
+     "code": "SY05-6",
+     "title": "J-CARVE registry: Past and future",
+     "speaker": "Mitsuaki Nishikimi",
+     "affiliation": "Aichi Medical University/Hiroshima University, Japan"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY08",
+   "type": "Symposium",
+   "title": "Perfusionist VA",
+   "room": 3,
+   "roomDesc": "5F Large Hall A",
+   "start": "14:45",
+   "end": "16:15",
+   "talks": [
+    {
+     "code": "SY08-1",
+     "title": "Current status and chellenges of VA-ECMO in Japan -Tips for improving ECPR outcomes-",
+     "speaker": "Takahiro Miki",
+     "affiliation": ""
+    },
+    {
+     "code": "SY08-2",
+     "title": "How to wean VA ECMO with pump-controlled retrograde trial off",
+     "speaker": "Fung Ming Brian Lau",
+     "affiliation": "Department of Adult Intensive Care, Queen Mary Hospital, Hong Kong SAR"
+    },
+    {
+     "code": "SY08-3",
+     "title": "The current status and future directions of Pediatric VA? ECMO in Japan",
+     "speaker": "Akihiro Umezu",
+     "affiliation": "Department of Clinical Engineering, Tokyo Metropolitan Children’s Medical Center"
+    },
+    {
+     "code": "SY08-4",
+     "title": "Optimizing VA ECMO Mmanagement: A coordinator’s perspective from Samsung Medical Center",
+     "speaker": "Suhyun Cho",
+     "affiliation": "Samsung Medical Center, Republic of Korea"
+    }
+   ],
+   "cat": "perfusionist",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY12",
+   "type": "Symposium",
+   "title": "Cardiac ECMO 1",
+   "room": 4,
+   "roomDesc": "5F Large Hall B",
+   "start": "14:45",
+   "end": "16:15",
+   "talks": [
+    {
+     "code": "SY12-1",
+     "title": "Echocardiography evaluation in patients on V-A ECMO",
+     "speaker": "Wincy Ng",
+     "affiliation": "Adult Intensive Care Unit, Queen Mary Hospital, Hong Kong SAR"
+    },
+    {
+     "code": "SY12-2",
+     "title": "Can we know at 24 hours? Neuroprognostication after ECPR",
+     "speaker": "Charles A. Bruen",
+     "affiliation": "University of Minnesota, USA"
+    },
+    {
+     "code": "SY12-3",
+     "title": "Clinical challenges in long-term management of cardiogenic shock supported by IMPELLA: A case series highlighting dilemmas in weaning and bridging to left ventricular assist device",
+     "speaker": "Motoko Kametani",
+     "affiliation": "Department of Cardiology, Tokyo Women's Medical University, Japan"
+    },
+    {
+     "code": "SY12-4",
+     "title": "Patient factors and outcomes after ECPR",
+     "speaker": "Chih-Hsien Wang",
+     "affiliation": "National Taiwan University Hospital, Taiwan, China"
+    },
+    {
+     "code": "SY12-5",
+     "title": "Macro-level hemodynamic simulation",
+     "speaker": "Kei Sato",
+     "affiliation": "Department of Cardiovascular Dynamics, National Cerebral and Cardiovascular Center, Japan"
+    },
+    {
+     "code": "SY12-6",
+     "title": "Simulation in the cardiothoracic operating theatres",
+     "speaker": "Bevan Vickery",
+     "affiliation": "CVICU, Auckland City Hospital, New Zealand"
+    }
+   ],
+   "cat": "cardiac",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "HS-A2(J)",
+   "type": "Hands-on",
+   "title": "Adult Session 2（Japanese）",
+   "room": 6,
+   "roomDesc": "6F Conference Room B",
+   "start": "14:45",
+   "end": "16:15",
+   "talks": [],
+   "cat": "handson",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY13",
+   "type": "Symposium",
+   "title": "Neuro Management",
+   "room": 7,
+   "roomDesc": "6F Conference Room C",
+   "start": "14:45",
+   "end": "16:15",
+   "talks": [
+    {
+     "code": "SY13-1",
+     "title": "Long-term post-ECLS neurologic complications and related healthcare burden",
+     "speaker": "Hwa Jin Cho",
+     "affiliation": "Chonnam National University Medical School, Republic of Korea"
+    },
+    {
+     "code": "SY13-2",
+     "title": "Biomarkers for the detection of acute brain injury during ECMO",
+     "speaker": "Kotaro Noda",
+     "affiliation": "Division of Cardiac Surgery, Department of Neurology, Surgery, Anesthesia, and Critical Care Medicine, Johns Hopkins University, USA"
+    },
+    {
+     "code": "SY13-3",
+     "title": "Using portable MRI in patients with ECMO support",
+     "speaker": "Sung-Min Cho",
+     "affiliation": "Johns Hopkins University, USA"
+    },
+    {
+     "code": "SY13-4",
+     "title": "Verticalization therapy: From cognitive stimulation to rehabilitation",
+     "speaker": "Stephen C. Ramsey",
+     "affiliation": "Critical Care Rehabilitation, Piedmont Hospita, USA"
+    },
+    {
+     "code": "SY13-5",
+     "title": "Rehabilitation during and after ECMO",
+     "speaker": "Hergen Buscher",
+     "affiliation": "Department of Intensive Care, St Vincent‘s Hospital/School of Clinical Medicine, UNSW Medicine & Health, St Vincent’s Clinical Campus, Australia"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "FC-D05",
+   "type": "Free Communications",
+   "title": "Doctors 5",
+   "room": 9,
+   "roomDesc": "6F Meeting Room 2",
+   "start": "14:45",
+   "end": "16:15",
+   "talks": [],
+   "cat": "doctors",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "FC-D08",
+   "type": "Free Communications",
+   "title": "Doctors 8",
+   "room": 10,
+   "roomDesc": "6F Meeting Room 3",
+   "start": "14:45",
+   "end": "16:15",
+   "talks": [],
+   "cat": "doctors",
+   "partial": false,
+   "mine": true
+  },
+  {
+   "day": "1",
+   "code": "EV1",
+   "type": "Evening Seminar",
+   "title": "Evening Seminar 1（sponsored by Terumo）",
+   "room": 2,
+   "roomDesc": "5F Main Hall B",
+   "start": "16:30",
+   "end": "17:30",
+   "talks": [],
+   "cat": "seminar",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "SY09",
+   "type": "Symposium",
+   "title": "Perfusionist Transport (Joint with the Japanese Society of Extra-Corporeal Technology in Medicine (JaSECT))",
+   "room": 3,
+   "roomDesc": "5F Large Hall A",
+   "start": "16:30",
+   "end": "17:30",
+   "talks": [
+    {
+     "code": "SY09-1",
+     "title": "ECMO transportu under adverse conditions",
+     "speaker": "Catalina Alvarado Neves",
+     "affiliation": "Clinica RedSalud Santiago, Chile"
+    },
+    {
+     "code": "SY09-2",
+     "title": "Optimizing ECMO transport through interhospital collaboration",
+     "speaker": "Takeshi Goto",
+     "affiliation": "Hirosaki University School of Medicine and Hospital, Japan"
+    },
+    {
+     "code": "SY09-3",
+     "title": "ICU based ECMO retrieval teams",
+     "speaker": "Paul Nixon",
+     "affiliation": "Alfred Care Group, Bayside Health, Australia"
+    },
+    {
+     "code": "SY09-4",
+     "title": "Establishing a regional ECMO transport system in Hokkaido: Experience and challenges",
+     "speaker": "Masumi Kishimoto",
+     "affiliation": "Department of Clinical Engineering Sapporo Medical University Hospital"
+    }
+   ],
+   "cat": "perfusionist",
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "EV2",
+   "type": "Evening Seminar",
+   "title": "Evening Seminar 2（sponsored by Getinge）",
+   "room": 4,
+   "roomDesc": "5F Large Hall B",
+   "start": "16:30",
+   "end": "17:30",
+   "talks": [],
+   "cat": "seminar",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "1",
+   "code": "GT",
+   "type": "Get-together",
+   "title": "Get-together 交流會",
+   "room": 1,
+   "roomDesc": "5F Main Hall A",
+   "start": "17:40",
+   "end": "19:00",
+   "talks": [],
+   "cat": "other",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY16",
+   "type": "Symposium",
+   "title": "Cardiac ECMO 2",
+   "room": 1,
+   "roomDesc": "5F Main Hall A",
+   "start": "8:00",
+   "end": "9:30",
+   "talks": [
+    {
+     "code": "SY16-1",
+     "title": "Optimal timing of VA ECMO for cardiogenicshock",
+     "speaker": "Joseph E. Tonna",
+     "affiliation": "University of Utah Health, USA"
+    },
+    {
+     "code": "SY16-2",
+     "title": "Cardiogenic shock: Which device and when?",
+     "speaker": "Kollengode Ramanathan",
+     "affiliation": "National University Hospital, Singapore"
+    },
+    {
+     "code": "SY16-3",
+     "title": "EcPELLA: Integrating Impella for left ventricular venting in ECMO support",
+     "speaker": "Tammy Sin Kwan Ma",
+     "affiliation": "AICU, Queen Mary Hospital, Hong Kong SAR"
+    },
+    {
+     "code": "SY16-4",
+     "title": "VA-ECMO with left ventricular unloading in Japan: Current practice, evidence, and future directions",
+     "speaker": "Shoji Kawakami",
+     "affiliation": "Division of Cardiac Care Unit, Advanced Emergency Medical Services Center, Kurume University Hospital, Japan"
+    },
+    {
+     "code": "SY16-5",
+     "title": "The role of VA-ECMO in high-risk percutaneous coronary intervention",
+     "speaker": "Liangshan Wang",
+     "affiliation": "Beijing Anzhen Hospital, Capital Medical University, China"
+    },
+    {
+     "code": "SY16-6",
+     "title": "History and current status of VA-ECMO in Japan",
+     "speaker": "Shunichi Kato",
+     "affiliation": "Department or Cardiology/Advanced Critical Care and Emergency Center, Japanese Red Cross Saitama Hospital, Japan"
+    }
+   ],
+   "cat": "cardiac",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY21",
+   "type": "Symposium",
+   "title": "Respiratory ECMO 3 (Joint with the Japanese Society of Respiratory Care Medicine (JSRCM))",
+   "room": 2,
+   "roomDesc": "5F Main Hall B",
+   "start": "8:00",
+   "end": "9:30",
+   "talks": [
+    {
+     "code": "SY21-1",
+     "title": "ECMO use in lung transplant",
+     "speaker": "Jordi Riera",
+     "affiliation": "Critical Care Department, VHUH Barcelona, Spain"
+    },
+    {
+     "code": "SY21-2",
+     "title": "ECMO bridge to transplantation",
+     "speaker": "Ramsy Dsouza",
+     "affiliation": "The Prince Charles Hospital, Australia"
+    },
+    {
+     "code": "SY21-3",
+     "title": "An open lung strategy in patients receiving respiratory ECMO",
+     "speaker": "Yoshitaka Ogata",
+     "affiliation": "Anesthesiology, Intensive Care Unit, Osaka General Medical Center, Japan"
+    },
+    {
+     "code": "SY21-4",
+     "title": "The conundrum of patient selection for respiratory ECMO",
+     "speaker": "Raj Ramanan",
+     "affiliation": "Department of Critical Care Medicine, University of Pittsburgh School of Medicine, USA"
+    },
+    {
+     "code": "SY21-5",
+     "title": "Bridging respiratory care and ECMO: JSRCM’s collaboration and clinical support",
+     "speaker": "Aiko Tanaka",
+     "affiliation": "Department of Anesthesiology and Intensive Care Medicine, Osaka University Graduate School of Medicine, Japan"
+    },
+    {
+     "code": "SY21-6",
+     "title": "From lung-protective ventilation to lung rest: Reconsidering the threshold for ECMO initiation",
+     "speaker": "Naofumi Bunya",
+     "affiliation": "Department of Emergency Medicine, Sapporo Medical University, Japan"
+    }
+   ],
+   "cat": "respiratory",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY26",
+   "type": "Symposium",
+   "title": "Nurse 2 Ethics",
+   "room": 3,
+   "roomDesc": "5F Large Hall A",
+   "start": "8:00",
+   "end": "9:30",
+   "talks": [
+    {
+     "code": "SY26-1",
+     "title": "Challenges faced by nurses in ECMO care and the need for specialized ECMO nurses in Japan",
+     "speaker": "Saki Matsui",
+     "affiliation": "Tokyo Metropolitan Tama Medical Center, Japan"
+    },
+    {
+     "code": "SY26-2",
+     "title": "Ethics and ECMO, a bedside perspective",
+     "speaker": "Gretchen Lawson",
+     "affiliation": "Michigan Medicine, USA"
+    },
+    {
+     "code": "SY26-3",
+     "title": "Shared decision making in ECMO care: A multidisciplinary approach to ethics, communication, and withdrawal of care",
+     "speaker": "Chie Hatozaki",
+     "affiliation": "Department of Nursing, University of Tsukuba Hospital, Japan"
+    },
+    {
+     "code": "SY26-4",
+     "title": "Whole team care for the difficult ECMO cases",
+     "speaker": "Gail M. Annich",
+     "affiliation": "The Hospital for Sick Children, Canada"
+    },
+    {
+     "code": "SY26-5",
+     "title": "Ethics and caring for each other",
+     "speaker": "Jayne Sheldrake",
+     "affiliation": "Intensive Care Unit, Alfred Hospital, Australia"
+    },
+    {
+     "code": "SY26-6",
+     "title": "Shared decision-Making in ECMO",
+     "speaker": "Emmanuel Hei-Lok Cheung",
+     "affiliation": "School of Clinical Medicine, The University of Hong Kong, Hong Kong SAR"
+    }
+   ],
+   "cat": "nurse",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "OA1",
+   "type": "Outstanding Abstracts",
+   "title": "Outstanding Abstracts 1",
+   "room": 4,
+   "roomDesc": "5F Large Hall B",
+   "start": "8:00",
+   "end": "9:30",
+   "talks": [],
+   "cat": "oral",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "HS-P1(J)",
+   "type": "Hands-on",
+   "title": "Pediatrics Session 1（Japanese）",
+   "room": 5,
+   "roomDesc": "6F Conference Room A",
+   "start": "8:00",
+   "end": "9:30",
+   "talks": [],
+   "cat": "pediatric",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "HS-A3(E)",
+   "type": "Hands-on",
+   "title": "Adult Session 3 for Nurses（English）",
+   "room": 6,
+   "roomDesc": "6F Conference Room B",
+   "start": "8:00",
+   "end": "9:30",
+   "talks": [],
+   "cat": "nurse",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY33",
+   "type": "Symposium",
+   "title": "Perfusionist Complication",
+   "room": 8,
+   "roomDesc": "6F Meeting Room 1",
+   "start": "8:00",
+   "end": "9:30",
+   "talks": [
+    {
+     "code": "SY33-1",
+     "title": "Clinical factors associated with outcomes in patients with acute myocardial infarction supported by V-A ECMO: A survival tree and mediation analysis",
+     "speaker": "Yusuke Okadome",
+     "affiliation": "Department of Clinical Engineering, Japanese Red Cross Kumamoto Hospital/Department of Molecular Genetics, Graduate School of Medical Sciences, Kumamoto University, Japan"
+    },
+    {
+     "code": "SY33-2",
+     "title": "Mechanical complication during ECMO",
+     "speaker": "Ibnu Sofa",
+     "affiliation": "Harapan Kita, Indonesia"
+    },
+    {
+     "code": "SY33-3",
+     "title": "ECMO complication - Haemolysis",
+     "speaker": "Anne Hoo",
+     "affiliation": "National Heart Centre Singapore, Singapore"
+    },
+    {
+     "code": "SY33-4",
+     "title": "Multidisciplinary team simulation for ECMO complication prevention",
+     "speaker": "Yoshihisa Seki",
+     "affiliation": "Department of Clinical Engineering, Maebashi Red Cross Hospital, Japan"
+    },
+    {
+     "code": "SY33-5",
+     "title": "Approaches to managing ECMO related complication based on clinical cases",
+     "speaker": "Sunhee Lee",
+     "affiliation": "Hallym University Sacred Heart Hospital, Republic of Korea"
+    }
+   ],
+   "cat": "perfusionist",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "FC-NP1",
+   "type": "Free Communications",
+   "title": "Nurses / Physical Therapists 1",
+   "room": 9,
+   "roomDesc": "6F Meeting Room 2",
+   "start": "8:00",
+   "end": "9:30",
+   "talks": [],
+   "cat": "nurse",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY17",
+   "type": "Symposium",
+   "title": "ECPR 2",
+   "room": 1,
+   "roomDesc": "5F Main Hall A",
+   "start": "9:45",
+   "end": "11:15",
+   "talks": [
+    {
+     "code": "SY17-1",
+     "title": "ECPR paradigm shift?",
+     "speaker": "Su Jin Kim",
+     "affiliation": "Korea University Medicine, Republic of Korea"
+    },
+    {
+     "code": "SY17-2",
+     "title": "Efforts toward establishing an experimental ECPR model",
+     "speaker": "Shinichi Ijuin",
+     "affiliation": "Critical Care Research Group, The Prince Charles Hospital, Brisbane, Australia/Department of Emergency and Critical Care Medicine, Hyogo Emergency Medical Center, Japan"
+    },
+    {
+     "code": "SY17-3",
+     "title": "ECPR anticoagulation: What the eidence really says",
+     "speaker": "Pranya Sakiyalak",
+     "affiliation": "Siriraj Hospital, Thailand"
+    },
+    {
+     "code": "SY17-4",
+     "title": "Keypoints of RCT",
+     "speaker": "Jordi Riera",
+     "affiliation": "Critical Care Department, VHUH Barcelona, Spain"
+    },
+    {
+     "code": "SY17-5",
+     "title": "The impact of realworld ECPR data from Japan: Insights from SAVE-JⅢ",
+     "speaker": "Yuta Tsunemi",
+     "affiliation": "Sapporo Cardiovascular Center/St. Luke’s International Hospital, Japan"
+    },
+    {
+     "code": "SY17-6",
+     "title": "Who should go on pump? Rethinking patient selection in ECPR",
+     "speaker": "Tammy Sin Kwan Ma",
+     "affiliation": "AICU, Queen Mary Hospital, Hong Kong SAR"
+    }
+   ],
+   "cat": "ecpr",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY22",
+   "type": "Symposium",
+   "title": "Pediatrics ECMO 3",
+   "room": 2,
+   "roomDesc": "5F Main Hall B",
+   "start": "9:45",
+   "end": "11:15",
+   "talks": [
+    {
+     "code": "SY22-1",
+     "title": "From smallsteps to lifesaving transport: The evolution of Pediatric ECMO transport in Tokyo",
+     "speaker": "Kenji Morimoto",
+     "affiliation": "Paediatric Emergency and Critical Care Medicine, Tokyo Metropolitan Children’s Medical Centre, Japan"
+    },
+    {
+     "code": "SY22-2",
+     "title": "Beyond survival: The hidden burden of neurologic complications after Pediatric ECLS",
+     "speaker": "Hwa Jin Cho",
+     "affiliation": "Chonnam National University Medical School, Republic of Korea"
+    },
+    {
+     "code": "SY22-3",
+     "title": "Developing ECMO competencies: Toward a sustainable educational model",
+     "speaker": "Gisela Ponce",
+     "affiliation": "Hospital de Pediatria Juan P Garrahan, Argentina"
+    },
+    {
+     "code": "SY22-4",
+     "title": "High-fidelity ECMO cannulation training without high costs: A practical simulation approach",
+     "speaker": "Juan Manuel Torrillas",
+     "affiliation": "Hospital of Pediatrics S.A.M.I.C. Prof. Dr. Juan P. Garrahan, Argentina"
+    },
+    {
+     "code": "SY22-5",
+     "title": "Nationwide trends in pediatric ECPR in Japan and insights from a regional pediatric ECMO referral and transport program",
+     "speaker": "Takanari Ikeyama",
+     "affiliation": "Center for Pediatric Emergency and Critical Care Medicine, Aichi Children's Health and Medical Center, Japan"
+    },
+    {
+     "code": "SY22-6",
+     "title": "T.B.A.",
+     "speaker": "Michael McMullan",
+     "affiliation": "Department of Congenital Cardiac Surgery, University of Washington School of Medicine/Heart Center, Seattle Children’s Hospital, USA"
+    }
+   ],
+   "cat": "pediatric",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY27",
+   "type": "Symposium",
+   "title": "Nurse 3 Complication",
+   "room": 3,
+   "roomDesc": "5F Large Hall A",
+   "start": "9:45",
+   "end": "11:15",
+   "talks": [
+    {
+     "code": "SY27-1",
+     "title": "Strategy to manage ECMO complications for nurses",
+     "speaker": "Yuen Tin Mok",
+     "affiliation": "Gleneagles Hospital Hong Kong. Hong Kong SAR"
+    },
+    {
+     "code": "SY27-2",
+     "title": "Global Opportunities through Collaboration",
+     "speaker": "Erin August",
+     "affiliation": "ELSO Coordinator Liaison& ECMO Coordinator at Cleveland Clinic Florida, USA"
+    },
+    {
+     "code": "SY27-3",
+     "title": "ECMO is not the goal: Safe mobilization and comfort care toward recovery",
+     "speaker": "Aya Umeda",
+     "affiliation": "National College of Nursing, Japan"
+    },
+    {
+     "code": "SY27-4",
+     "title": "Continuous nursing practice for V-A ECMO in our hospital: Initiatives in educational rrameworks and continuous Multidisciplinary Interventions Focused on QOL and Exit Strategies",
+     "speaker": "Mitsuo Ishizaka",
+     "affiliation": "St. Marianna University Hospital, Japan"
+    },
+    {
+     "code": "SY27-5",
+     "title": "Troubleshooting on the move",
+     "speaker": "Jayne Sheldrake",
+     "affiliation": "Intensive Care Unit, Alfred Hospital, Australia"
+    }
+   ],
+   "cat": "nurse",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "OA2",
+   "type": "Outstanding Abstracts",
+   "title": "Outstanding Abstracts 2",
+   "room": 4,
+   "roomDesc": "5F Large Hall B",
+   "start": "9:45",
+   "end": "11:15",
+   "talks": [],
+   "cat": "oral",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "HS-P2(E)",
+   "type": "Hands-on",
+   "title": "Pediatrics Session 2（English）",
+   "room": 5,
+   "roomDesc": "6F Conference Room A",
+   "start": "9:45",
+   "end": "11:15",
+   "talks": [],
+   "cat": "pediatric",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "HS-A4(J)",
+   "type": "Hands-on",
+   "title": "Adult Session 4 for Nurses（Japanese）",
+   "room": 6,
+   "roomDesc": "6F Conference Room B",
+   "start": "9:45",
+   "end": "11:15",
+   "talks": [],
+   "cat": "nurse",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "IMPELLA",
+   "type": "Hands-on",
+   "title": "Impella Hands-on Workshop（sponsored by J&J MedTech）",
+   "room": 7,
+   "roomDesc": "6F Conference Room C",
+   "start": "9:45",
+   "end": "11:15",
+   "talks": [],
+   "cat": "handson",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY34",
+   "type": "Symposium",
+   "title": "Perfusionist Training",
+   "room": 8,
+   "roomDesc": "6F Meeting Room 1",
+   "start": "9:45",
+   "end": "11:15",
+   "talks": [
+    {
+     "code": "SY34-1",
+     "title": "Creating a circle of safety together: Educational initiatives at the Tama ECMO Center",
+     "speaker": "Masahisa Tagawa",
+     "affiliation": "Department of Clinical Engineering, Tokyo Metropolitan Tama Medical Center, Japan"
+    },
+    {
+     "code": "SY34-2",
+     "title": "Role of the ECMO specialist",
+     "speaker": "Sunhee Lee",
+     "affiliation": "Hallym University Sacred Heart Hospital, Republic of Korea"
+    },
+    {
+     "code": "SY34-3",
+     "title": "ECMO training at National Heart Centre",
+     "speaker": "Anne Hoo",
+     "affiliation": "National Heart Centre, Singapore"
+    },
+    {
+     "code": "SY34-4",
+     "title": "Indonesia ECMO perfusion and training",
+     "speaker": "Ibnu Sofa",
+     "affiliation": "Harapan Kita, Indonesia"
+    },
+    {
+     "code": "SY34-5",
+     "title": "Strengthening perfusionist competency through high-fidelity simulation: Preparing for high-stakes ECMO practice",
+     "speaker": "Chan Ricky Wai Kit",
+     "affiliation": "Department of Adult Intensive Care, Queen Mary Hospital, Hong Kong SAR"
+    },
+    {
+     "code": "SY34-6",
+     "title": "ECMO education at our institution: Strategies, tools, and outreach",
+     "speaker": "Takayuki Mizogcuhi",
+     "affiliation": "Department of Clinical Engineering, Oita University Hospital, Japan"
+    }
+   ],
+   "cat": "perfusionist",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "FC-NP2",
+   "type": "Free Communications",
+   "title": "Nurses / Physical Therapists 2",
+   "room": 9,
+   "roomDesc": "6F Meeting Room 2",
+   "start": "9:45",
+   "end": "11:15",
+   "talks": [],
+   "cat": "nurse",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "L5",
+   "type": "Luncheon Seminar 5（Getinge 贊助）",
+   "title": "eCPR Pathways: Integrating In-Hospital and Out-of-Hospital Care",
+   "room": 1,
+   "roomDesc": "5F Main Hall A",
+   "start": "11:35",
+   "end": "",
+   "talks": [],
+   "cat": "seminar",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "L6",
+   "type": "Luncheon Seminar 6（J&J MedTech 贊助）",
+   "title": "Impella as a Treatment Strategy for Improved Outcome",
+   "room": 2,
+   "roomDesc": "5F Main Hall B",
+   "start": "11:35",
+   "end": "",
+   "talks": [],
+   "cat": "seminar",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "L7",
+   "type": "Luncheon Seminar 7（Mallinckrodt Pharmaceuticals 贊助）",
+   "title": "Inhaled Nitric Oxide",
+   "room": 3,
+   "roomDesc": "5F Large Hall A",
+   "start": "11:35",
+   "end": "",
+   "talks": [],
+   "cat": "seminar",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY18",
+   "type": "Symposium",
+   "title": "Respiratory ECMO 2",
+   "room": 1,
+   "roomDesc": "5F Main Hall A",
+   "start": "12:45",
+   "end": "14:15",
+   "talks": [
+    {
+     "code": "SY18-1",
+     "title": "T.B.A.",
+     "speaker": "",
+     "affiliation": ""
+    },
+    {
+     "code": "SY18-2",
+     "title": "PEEP 10: The 'perfect' ten that doesn't work",
+     "speaker": "Bishoy Zakhary",
+     "affiliation": "Division of Pulmonary and Critical Care Medicine, Oregon Health and Science University, USA"
+    },
+    {
+     "code": "SY18-3",
+     "title": "Precision critical care for ARDS requiring V-V ECMO",
+     "speaker": "Mitsuaki Nishikimi",
+     "affiliation": "Aichi Medical University/Hiroshima University, Japan"
+    },
+    {
+     "code": "SY18-4",
+     "title": "Mechanical ventilation during VV ECMO: How low can we go?",
+     "speaker": "Eddy Fan",
+     "affiliation": "University of Toronto, Canada"
+    },
+    {
+     "code": "SY18-5",
+     "title": "Fluid balance assessment and monitoring during VV-ECMO: Current tools and emerging technologies",
+     "speaker": "Jun Hamaguchi",
+     "affiliation": "Tokyo Metropolitan Tama Medical Center, Japan"
+    }
+   ],
+   "cat": "respiratory",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY23",
+   "type": "Symposium",
+   "title": "Post Cardiotomy",
+   "room": 2,
+   "roomDesc": "5F Main Hall B",
+   "start": "12:45",
+   "end": "14:15",
+   "talks": [
+    {
+     "code": "SY23-1",
+     "title": "Towards improvedresults in post-cardiotomy ECLS/MCS: The new EACTS expert consensus document on protected cardiac surgery",
+     "speaker": "Roberto Lorusso",
+     "affiliation": "Cardio-Thoracic Surgery Department, Heart & Vascular Center, Maastricht University Medical Centre (MUMC+)/Cardiovascular Research Institute Maastricht (CARIM), The Netherlands"
+    },
+    {
+     "code": "SY23-2",
+     "title": "ECMO for heart transplantation",
+     "speaker": "Pranya Sakiyalak",
+     "affiliation": "Siriraj Hospital, Thailand"
+    },
+    {
+     "code": "SY23-3",
+     "title": "T.B.A.",
+     "speaker": "",
+     "affiliation": ""
+    },
+    {
+     "code": "SY23-4",
+     "title": "When support isn’t enough: Managing Ccomplications and driving reintervention after cardiac surgery",
+     "speaker": "Hiroo Kinami",
+     "affiliation": "Lucile Packard Children’s Hospital Stanford, Stanford University School of Medicine, USA"
+    },
+    {
+     "code": "SY23-5",
+     "title": "Management strategies for postcardiotomy ECMO",
+     "speaker": "Kayo Misumi",
+     "affiliation": "Department of Cardiovascular Medicine, Kyushu University Hospital, Japan"
+    },
+    {
+     "code": "SY23-6",
+     "title": "T.B.A.",
+     "speaker": "Jae Seung Jung",
+     "affiliation": "Department of Thoracic and Cardiovascular Surgery, Korea University Anam Hospital, Korea University College of Medicine, Republic of Korea"
+    }
+   ],
+   "cat": "cardiac",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY28",
+   "type": "Symposium",
+   "title": "Nurse 4 Transport",
+   "room": 3,
+   "roomDesc": "5F Large Hall A",
+   "start": "12:45",
+   "end": "14:15",
+   "talks": [
+    {
+     "code": "SY28-1",
+     "title": "The role and practice of nurses in ECMO transport",
+     "speaker": "Mai Yasutake",
+     "affiliation": "Fukuoka University Hospital, Japan"
+    },
+    {
+     "code": "SY28-2",
+     "title": "Critical care without walls: Managing ECMO patients in transit",
+     "speaker": "Weiting Chen",
+     "affiliation": "UCLA Medical Center and Cedars Sinai Medical Center, USA"
+    },
+    {
+     "code": "SY28-3",
+     "title": "Interhospital transport of the ECMO patient – A nursing perspective",
+     "speaker": "Barbara Wilson",
+     "affiliation": "GSTT NHS Foundation Trust, UK"
+    },
+    {
+     "code": "SY28-4",
+     "title": "Overcome ECMO transport",
+     "speaker": "Ryusuke Okuzaki",
+     "affiliation": "Intensive Care Unit, Chiba University Hospital, Japan"
+    },
+    {
+     "code": "SY28-5",
+     "title": "Moving ECMO safely: Principles and practice",
+     "speaker": "Fung Ming Brian Lau",
+     "affiliation": "Department of Adult Intensive Care, Queen Mary Hospital, Hong Kong SAR"
+    },
+    {
+     "code": "SY28-6",
+     "title": "ECMO transportation: A New Zealand nurse experience",
+     "speaker": "Philippa Neal",
+     "affiliation": "Auckland City Hospital, Te Toka Tumai, New Zealand"
+    }
+   ],
+   "cat": "nurse",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY31",
+   "type": "Symposium",
+   "title": "Basic Research",
+   "room": 4,
+   "roomDesc": "5F Large Hall B",
+   "start": "12:45",
+   "end": "14:15",
+   "talks": [
+    {
+     "code": "SY31-1",
+     "title": "Repurposing a therapy from sepsis to cardiac surgery requiring cardiopulmonary bypass",
+     "speaker": "Yugeesh Lankadeva",
+     "affiliation": "Florey Institute and Austin Hospital, Australia"
+    },
+    {
+     "code": "SY31-2",
+     "title": "The impact of ECMO on blood: A blood loop study",
+     "speaker": "Jacky Suen",
+     "affiliation": "Critical Care Research Group, The University of Queensland, Australia"
+    },
+    {
+     "code": "SY31-3",
+     "title": "Development of a thoracic space? Creating central PA? LA ECMO model for implantable artificial lung evaluation",
+     "speaker": "Masaki Anraku",
+     "affiliation": "Tokyo Metropolitan Institute for Geriatrics and Gerontology, Japan"
+    },
+    {
+     "code": "SY31-4",
+     "title": "T.B.A.",
+     "speaker": "Hwa Jin Cho",
+     "affiliation": "Chonnam National University Medical School, Republic of Korea"
+    },
+    {
+     "code": "SY31-5",
+     "title": "Effects of hydrogen gas administration via the extracorporeal membrane oxygenator sweep gas: A rat study",
+     "speaker": "Toshiyuki Aokage",
+     "affiliation": "Advanced Critical Care and Emergency Medical Center, Okayama University Hospital, Japan"
+    },
+    {
+     "code": "SY31-6",
+     "title": "Unloading LV in VA ECMO: experimental insights",
+     "speaker": "Jan Belohlavek",
+     "affiliation": "General University Hospital in Prague, Czech Republic"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "HS-P3(J)",
+   "type": "Hands-on",
+   "title": "Pediatrics Session 3（Japanese）",
+   "room": 5,
+   "roomDesc": "6F Conference Room A",
+   "start": "12:45",
+   "end": "14:15",
+   "talks": [],
+   "cat": "pediatric",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "HS-A5(E)",
+   "type": "Hands-on",
+   "title": "Adult Session 5（English）",
+   "room": 6,
+   "roomDesc": "6F Conference Room B",
+   "start": "12:45",
+   "end": "14:15",
+   "talks": [],
+   "cat": "handson",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY35",
+   "type": "Symposium",
+   "title": "Education",
+   "room": 8,
+   "roomDesc": "6F Meeting Room 1",
+   "start": "12:45",
+   "end": "14:15",
+   "talks": [
+    {
+     "code": "SY35-1",
+     "title": "Global and regional development in the last decade",
+     "speaker": "Simon Wai Ching Sin",
+     "affiliation": "Critical Care Medicine Unit, Queen Mary Hospital, The University of Hong Kong, Hong Kong SAR"
+    },
+    {
+     "code": "SY35-2",
+     "title": "Building a high-functioning Pediatric ECMO team in a high-volume heart center with limited intensivist availability",
+     "speaker": "Kazuhiro Shoya",
+     "affiliation": "Department of Critical Care Medicine, Sakakibara Heart Institute, Japan"
+    },
+    {
+     "code": "SY35-3",
+     "title": "Education and the bedside care giver",
+     "speaker": "Jayne Sheldrake",
+     "affiliation": "Intensive Care Unit, Alfred Hospital, Australia"
+    },
+    {
+     "code": "SY35-4",
+     "title": "Development of ECMO training program in Taiwan",
+     "speaker": "Bowei Fong",
+     "affiliation": "National Taiwan University Hospital, Taiwan, China"
+    },
+    {
+     "code": "SY35-5",
+     "title": "ECMO education in a Japanese Emergency and Critical Care Centerc Tokuji Ikeda",
+     "speaker": "Yamanashi Prefectural Central Hospital, Japan",
+     "affiliation": ""
+    },
+    {
+     "code": "SY35-6",
+     "title": "The ECMO simulation illusion: Performance vs. learning",
+     "speaker": "Mark T. Ogino",
+     "affiliation": "Children's Hospital of Philadelphia, USA"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "FC-NP3",
+   "type": "Free Communications",
+   "title": "Nurses / Physical Therapists 3",
+   "room": 9,
+   "roomDesc": "6F Meeting Room 2",
+   "start": "12:45",
+   "end": "14:15",
+   "talks": [],
+   "cat": "nurse",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY19",
+   "type": "Symposium",
+   "title": "ECMO Transport",
+   "room": 1,
+   "roomDesc": "5F Main Hall A",
+   "start": "14:30",
+   "end": "16:00",
+   "talks": [
+    {
+     "code": "SY19-1",
+     "title": "Establishment of an in-hospital transport system for patients on ECMO at an center in Tokyo, Japan",
+     "speaker": "Kaoru Shimada-Sammori",
+     "affiliation": "ECMO Center, Tokyo Metropolitan Tama Medical Center, Japan"
+    },
+    {
+     "code": "SY19-2",
+     "title": "ECLS transport- military lessons and apecial considerations",
+     "speaker": "Valerie G. Sams",
+     "affiliation": "Center for Sustainment of Trauma and Readiness Skills, University of Cincinnati Medical Center, US Air, USA"
+    },
+    {
+     "code": "SY19-3",
+     "title": "ECMO transport across islands: The Okinawa experience",
+     "speaker": "Kota Hoshino",
+     "affiliation": "Emergency and Critical Care Center, Okinawa Prefectural Nanbu Medical Center, Japan"
+    },
+    {
+     "code": "SY19-4",
+     "title": "Why we perfirn ECMO transports",
+     "speaker": "Vincent Alfred Pellegrino",
+     "affiliation": "Intensive Care Specialist, Alfred Hospital, Australlia"
+    },
+    {
+     "code": "SY19-5",
+     "title": "International ECMO transportation, experience from Bangkok Heart Hospital, Thailand",
+     "speaker": "Wirangrong Kaobhuthai",
+     "affiliation": "Bangkok Heart Hospital, Thailand"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY24",
+   "type": "Symposium",
+   "title": "VA ECMO",
+   "room": 2,
+   "roomDesc": "5F Main Hall B",
+   "start": "14:30",
+   "end": "16:00",
+   "talks": [
+    {
+     "code": "SY24-1",
+     "title": "Same support, different risks: VA ECMO complications in children versus adults",
+     "speaker": "Michele Domico",
+     "affiliation": "Children's Hospital of Orange County- Rady Children's Health, California USA"
+    },
+    {
+     "code": "SY24-2",
+     "title": "Coagulation management and complications associated with V-A ECMO in adults",
+     "speaker": "Hergen Buscher",
+     "affiliation": "Department of Intensive Care, St Vincent‘s Hospital/School of Clinical Medicine, UNSW Medicine & Health, St Vincent’s Clinical Campus, Australia"
+    },
+    {
+     "code": "SY24-3",
+     "title": "Understanding patient-centered outcomes after ECMO",
+     "speaker": "Pauline Yeung Ng",
+     "affiliation": "Critical Care Medicine Unit, The University of Hong Kong Queen Mary Hospital, Hong Kong SAR"
+    },
+    {
+     "code": "SY24-4",
+     "title": "Post-cardiotomy VA ECMO",
+     "speaker": "Boonlawat Homvises",
+     "affiliation": "Thammasat Hospital, Thailand"
+    },
+    {
+     "code": "SY24-5",
+     "title": "Establishing VA-ECMO as a core domain in the new Japanese Cardiopulmonary Support Specialist Certification: Essential components and international comparison",
+     "speaker": "Keisuke Oyama",
+     "affiliation": "Kawaguchi Cardiovascular and Respiratory Hospital, Japan"
+    },
+    {
+     "code": "SY24-6",
+     "title": "A deep dive into LV unloading in VA-ECMO: Evidence and outcomes",
+     "speaker": "Inseok Jeong",
+     "affiliation": "Chonnam National University Hospital, Republic of Korea"
+    }
+   ],
+   "cat": "cardiac",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY29",
+   "type": "Symposium",
+   "title": "with the SEECMO 1",
+   "room": 3,
+   "roomDesc": "5F Large Hall A",
+   "start": "14:30",
+   "end": "16:00",
+   "talks": [
+    {
+     "code": "SY29-1",
+     "title": "Current practices of circuit checks in ECMO centers in Japan",
+     "speaker": "Ryo Ishizawa",
+     "affiliation": "Tokyo Metropolitan Tama ECMO Center, Japan"
+    },
+    {
+     "code": "SY29-2",
+     "title": "Circuit replacement strategies",
+     "speaker": "Ka Yu Fung",
+     "affiliation": "Department of Critical Care Unit, Gleneagles Hospital Hong Kong and Critical Care Medicine Unit, The University of Hong Kong, Hong Kong SAR"
+    },
+    {
+     "code": "SY29-3",
+     "title": "Challenging liberation: Physiologic weaning strategies in ECMO",
+     "speaker": "Ken Katsuta",
+     "affiliation": "Department of Emergency and Critical Care Medicine, Tohoku University Hospital, Japan"
+    },
+    {
+     "code": "SY29-4",
+     "title": "CRRT configuration overview",
+     "speaker": "Erin August",
+     "affiliation": "Cleveland Clinic Florida, USA"
+    },
+    {
+     "code": "SY29-5",
+     "title": "Decannulation practices & post-ECMO decannulation care",
+     "speaker": "Joseph E. Tonna",
+     "affiliation": "University of Utah Health, USA"
+    },
+    {
+     "code": "SY29-6",
+     "title": "Managing the ECMO circuit: Before and after ECMO",
+     "speaker": "Erin August",
+     "affiliation": "Cleveland Clinic Florida, USA"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY32",
+   "type": "Symposium",
+   "title": "Ethics",
+   "room": 4,
+   "roomDesc": "5F Large Hall B",
+   "start": "14:30",
+   "end": "16:00",
+   "talks": [
+    {
+     "code": "SY32-1",
+     "title": "Confronting ethical uncertainties in ECMO practice",
+     "speaker": "Emmanuel Hei-Lok Cheung",
+     "affiliation": "School of Clinical Medicine, The University of Hong Kong, Hong Kong SAR"
+    },
+    {
+     "code": "SY32-2",
+     "title": "Hard choises",
+     "speaker": "Len Y. Tanaka",
+     "affiliation": "Kapiolani Medical Center for Women & Children, USA"
+    },
+    {
+     "code": "SY32-3",
+     "title": "Beyond medical indications: Cultural and social determinants of end-of-life decision in Japan",
+     "speaker": "Takako Akimoto",
+     "affiliation": "Teine Keijinkai Hospital, Japan"
+    },
+    {
+     "code": "SY32-4",
+     "title": "T.B.A.",
+     "speaker": "Gail M. Annich",
+     "affiliation": "The Hospital for Sick Children, Canada"
+    },
+    {
+     "code": "SY32-5",
+     "title": "Ethical application of ecmo - from commencement to withdrawal, a UK perspective",
+     "speaker": "Nicholas Barrett",
+     "affiliation": "Guy's and St Thomas' NHS Foundation Trust, London"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "HS-P4(E)",
+   "type": "Hands-on",
+   "title": "Pediatrics Session 4（English）",
+   "room": 5,
+   "roomDesc": "6F Conference Room A",
+   "start": "14:30",
+   "end": "16:00",
+   "talks": [],
+   "cat": "pediatric",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "HS-A6(J)",
+   "type": "Hands-on",
+   "title": "Adult Session 6（Japanese）",
+   "room": 6,
+   "roomDesc": "6F Conference Room B",
+   "start": "14:30",
+   "end": "16:00",
+   "talks": [],
+   "cat": "handson",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY36",
+   "type": "Symposium",
+   "title": "Infection",
+   "room": 8,
+   "roomDesc": "6F Meeting Room 1",
+   "start": "14:30",
+   "end": "16:00",
+   "talks": [
+    {
+     "code": "SY36-1",
+     "title": "ECMO in crisis: Team dynamics under pressure",
+     "speaker": "Catalina Alvarado Neves",
+     "affiliation": "Clinica RedSalud Santiago, Chile"
+    },
+    {
+     "code": "SY36-2",
+     "title": "ECMO management in infectious diseases: Facility-based strategies derived from the COVID-19 pandemic",
+     "speaker": "Tatsunori Ogawa",
+     "affiliation": "Center Hospital of the National Center for Global Health and Medicine, National Research and Development Agency, Japan"
+    },
+    {
+     "code": "SY36-3",
+     "title": "Prophylactic antibiotics in ECMO patients – Yes or No?",
+     "speaker": "Tze Hui Yeoh",
+     "affiliation": "Queen Mary Hospital, Hong Kong SAR"
+    },
+    {
+     "code": "SY36-4",
+     "title": "Pharmacists’ involvement in ECMO? Effect of drug clearance and adsorption?",
+     "speaker": "Yuya Hokabe",
+     "affiliation": "Division of Pharmacy, Chiba University Hospital, Japan"
+    },
+    {
+     "code": "SY36-5",
+     "title": "ECMO in fulminant leptospirosis",
+     "speaker": "Joann Kathleen Ginete Garcia",
+     "affiliation": "National Kidney and Transplant Institute, Philippines"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "FC-D09",
+   "type": "Free Communications",
+   "title": "Doctors 9",
+   "room": 9,
+   "roomDesc": "6F Meeting Room 2",
+   "start": "14:30",
+   "end": "16:00",
+   "talks": [
+    {
+     "code": "FC-D9-08",
+     "title": "Sudden Hemodynamic Collapse Post-ROSC on ECPR: Unmasking a Fatal CPR-Related Cardiac Trauma",
+     "speaker": "Chang Chih Tsai",
+     "affiliation": "Department of Emergency Medicine, Chi-Mei Medical Center, Tainan, Taiwan / Department of Health and Nutrition, Chia Nan University of Pharmacy and Science"
+    }
+   ],
+   "cat": "doctors",
+   "partial": true,
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY20",
+   "type": "Symposium",
+   "title": "Trauma ECMO",
+   "room": 1,
+   "roomDesc": "5F Main Hall A",
+   "start": "16:15",
+   "end": "17:15",
+   "talks": [
+    {
+     "code": "SY20-1",
+     "title": "ECMO in trauma",
+     "speaker": "Justyna Swol",
+     "affiliation": "Department of Respiratory Medicine, Paracelsus Medical University Nuremberg, Germany"
+    },
+    {
+     "code": "SY20-2",
+     "title": "Military experience with ECMO in trauma patients",
+     "speaker": "Valerie G. Sams",
+     "affiliation": "Center for Sustainment of Trauma and Readiness Skills, University of Cincinnati Medical Center, US Air, USA"
+    },
+    {
+     "code": "SY20-3",
+     "title": "Beyond damage control: The role of extracorporeal life support in severe trauma",
+     "speaker": "Dowan Kim",
+     "affiliation": "Department of Thoracic and Cardiovascular Surgery, Chonnam National University Hospital and Medical School, Republic of Korea"
+    },
+    {
+     "code": "SY20-4",
+     "title": "Single-center experience with Veno-Venous ECMO in trauma patients: Outcomes and the impact of age",
+     "speaker": "Yuita Fukuyama",
+     "affiliation": "Shock and Trauma Center. Nippon Medical School Chiba Hokuso Hospital, Japan"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY25",
+   "type": "Symposium",
+   "title": "ECCO2R Pros Cons",
+   "room": 2,
+   "roomDesc": "5F Main Hall B",
+   "start": "16:15",
+   "end": "17:15",
+   "talks": [
+    {
+     "code": "SY25-1",
+     "title": "ECCO2R - not yet ready for routine clinical practice",
+     "speaker": "Nicholas Barrett",
+     "affiliation": "Guy's and St Thomas' NHS Foundation Trust, London"
+    },
+    {
+     "code": "SY25-2",
+     "title": "ECCO2R: Too early for clinical practice? How to maximize CO? Removal while minimizing risk",
+     "speaker": "Naofumi Bunya",
+     "affiliation": "Department of Emergency Medicine, Sapporo Medical University, Japan"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "SY30",
+   "type": "Symposium",
+   "title": "with the SEECMO 2",
+   "room": 3,
+   "roomDesc": "5F Large Hall A",
+   "start": "16:15",
+   "end": "17:15",
+   "talks": [
+    {
+     "code": "SY30-1",
+     "title": "Double oxygenator and double circuit configurations",
+     "speaker": "Vadim Gudzenko",
+     "affiliation": "UCLA Medical Center, USA"
+    },
+    {
+     "code": "SY30-2",
+     "title": "Nitric oxide delivery via the ECMO circuit",
+     "speaker": "Giles Peek",
+     "affiliation": "University of Florida, USA"
+    },
+    {
+     "code": "SY30-3",
+     "title": "Mechanical circulatory support combinations",
+     "speaker": "Loren D. Anderson",
+     "affiliation": "AdventHealth Orlando, USA"
+    },
+    {
+     "code": "SY30-4",
+     "title": "New insights over the pulmonary artery cannulation in ECLS",
+     "speaker": "Roberto Lorusso",
+     "affiliation": "Cardio-Thoracic Surgery Department, Heart & Vascular Center, Maastricht University Medical Centre (MUMC+)/Cardiovascular Research Institute Maastricht (CARIM), The Netherlands"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "2",
+   "code": "EV3",
+   "type": "Evening Seminar",
+   "title": "Evening Seminar 3（sponsored by Resuscitec GmbH）",
+   "room": 4,
+   "roomDesc": "5F Large Hall B",
+   "start": "16:15",
+   "end": "17:15",
+   "talks": [],
+   "cat": "seminar",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "3",
+   "code": "SY37",
+   "type": "Symposium",
+   "title": "Clinical Research",
+   "room": 1,
+   "roomDesc": "5F Main Hall A",
+   "start": "8:00",
+   "end": "9:30",
+   "talks": [
+    {
+     "code": "SY37-1",
+     "title": "ECMO research networks: Observational data and platform trials",
+     "speaker": "Eddy Fan",
+     "affiliation": "University of Toronto, Canada"
+    },
+    {
+     "code": "SY37-2",
+     "title": "The REDUCE-ECMO Trial: Accelerated vs standard CRRT in cardiogenic shock on VA-ECMO",
+     "speaker": "Jeong Hoon Yang",
+     "affiliation": "Department of Critical Care Medicine and Division of Cardiology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Republic of Korea"
+    },
+    {
+     "code": "SY37-3",
+     "title": "ECPR for out-of-hospital cardiac arrest in Japan: Real-world data and ongoing research",
+     "speaker": "Akihiko Inoue",
+     "affiliation": "Emergency and Critical Care Center, Hyogo Emergency Medical Center, Japan"
+    },
+    {
+     "code": "SY37-4",
+     "title": "Comparing ECMO configurations with RV dysfunction in a bridge-to- lung transplantation",
+     "speaker": "Sang Bum Hong",
+     "affiliation": "Asan Medical Center, Univ of Ulsan, Republic of Korea"
+    },
+    {
+     "code": "SY37-5",
+     "title": "Functional vascular reconstruction in decellularized lungs using a mouse-scale perfusion bioreactor",
+     "speaker": "Fumiko Tomiyama",
+     "affiliation": "Department of Thoracic Surgery, Miyagi Cancer Center/Department of Thoracic Surgery, Institute of Development, Aging and Cancer, Japan Tohoku University"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "3",
+   "code": "SY39",
+   "type": "Symposium",
+   "title": "Blood Purification",
+   "room": 2,
+   "roomDesc": "5F Main Hall B",
+   "start": "8:00",
+   "end": "9:30",
+   "talks": [
+    {
+     "code": "SY39-1",
+     "title": "Extracorporeal blood purification treatment experience",
+     "speaker": "Bowei Fong",
+     "affiliation": "National Taiwan University Hospital, Taiwan, China"
+    },
+    {
+     "code": "SY39-2",
+     "title": "Blood purification in intensive care unit",
+     "speaker": "Yoshitaka Hara",
+     "affiliation": "Department of Anesthesiology and Critical Care Medicine, Fujita Health University School of Medicine, Japan"
+    },
+    {
+     "code": "SY39-3",
+     "title": "A mechanism-guided diagnostic to improve kidney health outcomes after cardiopulmonary bypass",
+     "speaker": "Yugeesh Lankadeva",
+     "affiliation": "Florey Institute and Austin Hospital, Australia"
+    },
+    {
+     "code": "SY39-4",
+     "title": "Blood purification in cardiogenic shock requiring VA ECMO",
+     "speaker": "Ryoung-Eun Ko",
+     "affiliation": "Department of Critical Care Medicine, Samsung Medical Center, Republic of Korea"
+    },
+    {
+     "code": "SY39-5",
+     "title": "Anticoagulation strategies for combined V-V ECMO and CRRT",
+     "speaker": "Ryo Ishizawa",
+     "affiliation": "Tokyo Metropolitan Tama ECMO Center, Japan"
+    },
+    {
+     "code": "SY39-6",
+     "title": "T.B.A.",
+     "speaker": "",
+     "affiliation": ""
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "3",
+   "code": "SY41",
+   "type": "Symposium",
+   "title": "Pediatrics ECMO 2",
+   "room": 8,
+   "roomDesc": "6F Meeting Room 1",
+   "start": "8:00",
+   "end": "9:30",
+   "talks": [
+    {
+     "code": "SY41-1",
+     "title": "Pediatric and neonatal ECMO cannulation: Challenges and lessons from Latin America",
+     "speaker": "Juan Manuel Torrillas",
+     "affiliation": "Hospital de Pediatria Prof. Dr. Juan P. Garrahan, Argentina"
+    },
+    {
+     "code": "SY41-2",
+     "title": "T.B.A.",
+     "speaker": "Michael McMullan",
+     "affiliation": "Department of Congenital Cardiac Surgery, University of Washington School of Medicine/Heart Center, Seattle Children’s Hospital, USA"
+    },
+    {
+     "code": "SY41-3",
+     "title": "Designing support to fit physiology: SVAD concepts and hybrid ECMO/VAD in children",
+     "speaker": "Hiroo Kinami",
+     "affiliation": "Lucile Packard Children’s Hospital Stanford, Stanford University School of Medicine, USA"
+    },
+    {
+     "code": "SY41-4",
+     "title": "T.B.A.",
+     "speaker": "",
+     "affiliation": ""
+    },
+    {
+     "code": "SY41-5",
+     "title": "Machine learning based prediction of ECMO circuit exchange in pediatric patients: An initial analysis",
+     "speaker": "Tatsuya Hasegawa",
+     "affiliation": "Nagoya City University, Japan"
+    }
+   ],
+   "cat": "pediatric",
+   "mine": false
+  },
+  {
+   "day": "3",
+   "code": "FC-PC1",
+   "type": "Free Communications",
+   "title": "Perfusionists / Clinical Engineers / Others 1",
+   "room": 9,
+   "roomDesc": "6F Meeting Room 2",
+   "start": "8:00",
+   "end": "9:30",
+   "talks": [],
+   "cat": "perfusionist",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "3",
+   "code": "FC-D10",
+   "type": "Free Communications",
+   "title": "Doctors 10",
+   "room": 10,
+   "roomDesc": "6F Meeting Room 3",
+   "start": "8:00",
+   "end": "9:30",
+   "talks": [],
+   "cat": "doctors",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "3",
+   "code": "SY38",
+   "type": "Symposium",
+   "title": "ELSO Guideline",
+   "room": 1,
+   "roomDesc": "5F Main Hall A",
+   "start": "9:45",
+   "end": "11:15",
+   "talks": [
+    {
+     "code": "SY38-1",
+     "title": "The global roadmap",
+     "speaker": "Kollengode Ramanathan",
+     "affiliation": "National University Hospital, Singapore"
+    },
+    {
+     "code": "SY38-2",
+     "title": "Circuit & monitoring",
+     "speaker": "Giles Peek",
+     "affiliation": "University of Florida, USA"
+    },
+    {
+     "code": "SY38-3",
+     "title": "Guidelines for VA ECMO and ECPR in adults",
+     "speaker": "Joseph E. Tonna",
+     "affiliation": "University of Utah Health, USA"
+    },
+    {
+     "code": "SY38-4",
+     "title": "Cardiac (including ECPR) guidelines for neonatal and pediatric ECMO",
+     "speaker": "Peta Alexander",
+     "affiliation": "Boston Children’s Hospital and Harvard Medical School, USA"
+    },
+    {
+     "code": "SY38-5",
+     "title": "Guideline for adult respiratory failure: Annotations and thoughts",
+     "speaker": "Thomas Müller",
+     "affiliation": "University Hospital Regensburg, Germany"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "3",
+   "code": "SY40",
+   "type": "Symposium",
+   "title": "with the Japanese Society of the Intensive Care Medicine (JSICM)",
+   "room": 2,
+   "roomDesc": "5F Main Hall B",
+   "start": "9:45",
+   "end": "11:15",
+   "talks": [
+    {
+     "code": "SY40-1",
+     "title": "Case 1: ECMO candidacy in elderly patients",
+     "speaker": "Yusuke Seino",
+     "affiliation": "Department of Critical Care Medicin, National Cerebral and Cardiovascular Center, Japan"
+    },
+    {
+     "code": "SY40-2",
+     "title": "Case 1: ECMO candidacy in elderly patients",
+     "speaker": "T.B.A.",
+     "affiliation": ""
+    },
+    {
+     "code": "SY40-3",
+     "title": "Case 2: Continuation or withdrawal of ECMO in irreversible lung injury",
+     "speaker": "T.B.A.",
+     "affiliation": ""
+    },
+    {
+     "code": "SY40-4",
+     "title": "Case 2: Continuation or withdrawal of ECMO in irreversible lung injury",
+     "speaker": "Wataru Iwanaga",
+     "affiliation": "Urasoe General Hospital, Japan"
+    },
+    {
+     "code": "SY40-5",
+     "title": "Case 3: Technical challenges such as extreme obesity",
+     "speaker": "T.B.A",
+     "affiliation": ""
+    },
+    {
+     "code": "SY40-6",
+     "title": "Case 3: Technical challenges such as extreme obesity",
+     "speaker": "Bevan Vickery",
+     "affiliation": "CVICU, Auckland City Hospital, New Zealand"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "3",
+   "code": "SY42",
+   "type": "Symposium",
+   "title": "Cannulation",
+   "room": 8,
+   "roomDesc": "6F Meeting Room 1",
+   "start": "9:45",
+   "end": "11:15",
+   "talks": [
+    {
+     "code": "SY42-1",
+     "title": "Deep dive into ECPR cannulation: Technique, timing, and teamwork",
+     "speaker": "Yuichi Horikoshi",
+     "affiliation": "Tokyo Metropolitan Tama Medical Center, Japan"
+    },
+    {
+     "code": "SY42-2",
+     "title": "When one is not enough",
+     "speaker": "Raj Ramanan",
+     "affiliation": "Department of Critical Care Medicine, University of Pittsburgh School of Medicine, USA"
+    },
+    {
+     "code": "SY42-3",
+     "title": "Cannulation in ECMO",
+     "speaker": "Justyna Swol",
+     "affiliation": "Department of Respiratory Medicine, Paracelsus Medical University Nuremberg, Germany"
+    },
+    {
+     "code": "SY42-4",
+     "title": "Distal perfusion is not optional - but prophylactic distal perfusion catheter maybe (DPC)",
+     "speaker": "Tammy Sin Kwan Ma",
+     "affiliation": "AICU, Queen Mary Hospital, Hong Kong SAR"
+    },
+    {
+     "code": "SY42-5",
+     "title": "Benefits of ICU lead peripheral cannulation",
+     "speaker": "Vincent Alfred Pellegrino",
+     "affiliation": "Intensive Care Specialist, Alfred Hospital, Australlia"
+    },
+    {
+     "code": "SY42-6",
+     "title": "ECMO via pulmonary artery cannulation: Mechanisms and experience",
+     "speaker": "Xin Li",
+     "affiliation": "Zhongshan Hospital, Fudan University, China"
+    }
+   ],
+   "cat": "other",
+   "mine": false
+  },
+  {
+   "day": "3",
+   "code": "FC-PC2",
+   "type": "Free Communications",
+   "title": "Perfusionists / Clinical Engineers / Others 2",
+   "room": 9,
+   "roomDesc": "6F Meeting Room 2",
+   "start": "9:45",
+   "end": "11:15",
+   "talks": [],
+   "cat": "perfusionist",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "3",
+   "code": "FC-D11",
+   "type": "Free Communications",
+   "title": "Doctors 11",
+   "room": 10,
+   "roomDesc": "6F Meeting Room 3",
+   "start": "9:45",
+   "end": "11:15",
+   "talks": [],
+   "cat": "doctors",
+   "partial": false,
+   "mine": false
+  },
+  {
+   "day": "3",
+   "code": "UD",
+   "type": "Up-to-date",
+   "title": "Up-to-date APELSO Nations and Regions",
+   "room": 1,
+   "roomDesc": "5F Main Hall A",
+   "start": "11:30",
+   "end": "",
+   "talks": [],
+   "cat": "other",
+   "partial": false,
+   "mine": false
+  }
+ ]
+}
