@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# 編輯器／暫存
+*.swp
+*~
+.vscode/
+.idea/
